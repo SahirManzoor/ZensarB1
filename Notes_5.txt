@@ -1,0 +1,134 @@
+Boxing: Value Type to a Reference type
+UnBoxing : Reference type to Value Type
+
+int i =10;
+Object Obj;
+obj=i;  //boxing
+
+i=(int)obj;  //unboxing
+
+string s="AAA";
+obj=s; //implicit typecasting
+
+float sal;
+sal=float.parse(Console.ReadLine()); //unboxing
+
+
+Null : Unknown/Missing
+
+Object,string : Pre defined reference type
+
+Structures and Enums : predefined value types
+
+All refrence types are nullable
+
+string s;
+s.Length;null reference
+
+string str="helloworld";
+string str1=new string(); empty constructor
+string str2=new string("hello");
+str1="hello";
+s=str2;
+cw(s,str1,str2);
+
+str="newhelloworld";
+str=null;
+
+strings are immutable
+string builder are mutable
+
+eg: stringBuilder s="hello";
+s="helloworld";
+
+Implicit Type : A datatype that can take up any otherdatatype
+
+Eg : var - implicitly typed variable have to be initialized with some data during declaration itself
+
+
+Nullable: ?
+Null Coalescing ??
+
+Enum: Enumerations of some chain of values
+
+OOPs: Design architecture with which we can build applications
+Cocepts On OOPs is built
+
+1. Encapsulation : Wrapping up the data and the functions as a single unit(Properties, state and the behaviour)
+
+2. Abstraction : Exposing only the relevant functionalities (hide innformation with thehelp of Access Specifiers/modifiers)
+
+3. Inheritance : Extension of already avialable functionalities
+
+4. Polymorphism : Capacity of an Object to behave differently at different situations
+
+All classes are by default internal
+All members of the class are by default private
+
+Access Specifiers : private : Not accessible outside the class
+    public : Accessible anywhere,but with an object instance (and with a project reference)
+    internal: Accessible anywhere inside the assembly
+    protected
+    protectedinternal or internalprotected
+
+Constructors: Are Special Functions/Methods/Members of the class
+
+Purpose: To allocate memory and to initialize the fields
+Implementation of Constructors: 1. It has to have the same name as that of the class
+                                2. It cannot have any return types
+                                3. They are internal by default
+                                4. We can have parameterized constructors
+                                5. It can be overloaded(can have many constructors in a class with different parameters)
+                                6. Can be invoked during object creation
+    
+Object Initializer:Are techniques to initialize the object w/o constructor
+
+Properties : Are extensions of fields
+             They have to be public, as they allow access from outside the class
+             They have to have the same datatype as that of the field
+             They do not occupy memory
+             They have accessors and mutators
+
+We can do an automatic implementation of property by simply declaring only the public property
+
+ReadOnly variables and constants
+
+ReadOnly: 1. The variables have to be declared using the keyword readonly
+          2. readonly variables have to be assigned values either at the declaration time or construction time
+          3. The behaviour of readonly variable is similar to non static variable - that is, it maintains a seperate copy of the variable for each object.
+          
+Constants : Variables that have a fixed value through out the class.
+            Value should be initialized at the time of declaration itself. 
+
+static : static variables are like constant variables in the sense, there is only one copy of the variable per class
+         values can be changed at any level.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
