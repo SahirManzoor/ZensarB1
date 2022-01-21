@@ -1,0 +1,11 @@
+E:\Banu\Zensar\Batch1\Day2\SecondConsoleprj\Project2\bin\Debug\Project2.exe.config
+E:\Banu\Zensar\Batch1\Day2\SecondConsoleprj\Project2\bin\Debug\Project2.exe
+E:\Banu\Zensar\Batch1\Day2\SecondConsoleprj\Project2\bin\Debug\Project2.pdb
+E:\Banu\Zensar\Batch1\Day2\SecondConsoleprj\Project2\bin\Debug\SecondConsoleprj.exe
+E:\Banu\Zensar\Batch1\Day2\SecondConsoleprj\Project2\bin\Debug\SecondConsoleprj.pdb
+E:\Banu\Zensar\Batch1\Day2\SecondConsoleprj\Project2\bin\Debug\SecondConsoleprj.exe.config
+E:\Banu\Zensar\Batch1\Day2\SecondConsoleprj\Project2\obj\Debug\Project2.csproj.AssemblyReference.cache
+E:\Banu\Zensar\Batch1\Day2\SecondConsoleprj\Project2\obj\Debug\Project2.csproj.CoreCompileInputs.cache
+E:\Banu\Zensar\Batch1\Day2\SecondConsoleprj\Project2\obj\Debug\Project2.csproj.CopyComplete
+E:\Banu\Zensar\Batch1\Day2\SecondConsoleprj\Project2\obj\Debug\Project2.exe
+E:\Banu\Zensar\Batch1\Day2\SecondConsoleprj\Project2\obj\Debug\Project2.pdb
