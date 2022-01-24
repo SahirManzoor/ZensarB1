@@ -1,0 +1,80 @@
+Static Class : Will have all static members
+               Cannot be instantiated
+               Will Have static constructors
+
+Single Inheritance and Multilevel Inheritance are supported in C#
+
+No Multiple Inheritance Support
+
+Constructing the base class and initializing the fields through child class constructor
+
+Protected : Acts like public within derived class and private for non derived class
+
+Accessible across assemblies for all the derived classes
+
+Protected Internal or Internal Protected : Accessible to all derived classes and non-derived clases within the assembly, and accessible to the derived classes of other assemblies
+
+
+GIT:
+
+Local Repository : Repository that is available in our physical machine
+
+Git/Remote Repository : Available at Github
+
+
+Create a folder where you would be working on assignments
+
+move to that folder by typing cd <foldername>
+
+type git init (Local git repo will be created) -If you get an error like not recognised as internal/external command, then download and install GitBash for windows
+
+
+git config --global user.name " <name as seen in the git ownership>"
+
+git config --global user.email :<mailid that is given during account creation>"
+
+Then you can add files that are newly created or modified by typing
+git add .
+
+Then commit the changes typing git commit -m "Some meaningful message"
+
+To link the local repo with the remote repo type
+
+git remote add origin <https url of the github repo>
+
+git push -u origin master
+
+
+--------------------
+every time you need to upload some data on to the reomote git use the below commands
+
+1. git add .
+2. git commit -m "<msg>"
+3. git push origin master
+
+Whenever you want the changes done in the remote repo to be reflected in your local repo, then type
+
+1. git pull origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
