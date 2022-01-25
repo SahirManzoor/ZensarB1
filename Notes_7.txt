@@ -1,0 +1,126 @@
+structure : Predefined value type
+            Both Attributes and functions together like a class
+            Does not have constructor
+
+
+struct student : IList  //can implement interfaces, but cannot inherit from other structures or classes
+{
+int marks1;
+int marks2;
+
+public void showstudent()
+{
+
+}
+
+student s;
+s.marks1=56;
+
+student s1=new student();
+
+
+Ref : Keyword  is equivalent to saying (&i) - address of the location where i is alloted in the memory
+
+
+public int add(int ref a, int ref b)
+{
+a=a+6;
+b=b-2;
+
+return a+b;
+}
+
+int x,y;
+x=5;y=10;
+
+int answer=add(ref x, ref y);
+
+int calculate(int num1, int num2, out float f)
+{
+   f=num1*num2;
+  return num1+num2;
+}
+
+n1=10;n2=15;
+
+int result=calculate(n1,n2,out f1)
+cw(result +" "+ f1);            output:  25 150
+
+float claculate(float f1, float f2, out float f3)
+{
+f3=f1*f2;
+return f1+f2;
+}
+
+float result=calculate(f1,f2,out f3);
+
+out : keyword
+
+sealed class myclass{
+
+
+
+}
+
+Method Overiding: -You want to use the signature of the parent class method, but give a different meaning/definition to the method, then you override
+
+-The derived class can override the parents functions/methods, provided the parent allows.
+-Parent allows overriding by specifying a keyword called virtual
+-Derived/Child class/classes will redifne using override keyword
+
+Polymorphism :An Objects ability to respond differently to the given/different situation
+
+	Overloading: A concept that is seen within a class
+                     Function/Method overloading
+                         when you have the same function name but different no. of arguments or different datatypes of arguments
+                     Operator Overloading
+                     Static polymorphisim/Early binding/static binding (where the copiler resolves all function calls)
+
+        Overriding:A concept that is seen across parent and child classes
+                   DynamicPolymorphism/late binding/dynamic binding (Runtime will have to resolve the function calls at the runtime)
+
+Binding : Resolution of function calls to the actual function
+
+Operator Overloading: Overloading the basic operators that usually works with value types, to also work with objects 
+string s, s1,s2;
+
+s2=s+s1;
+
+class testclass {
+
+int a,
+float f;
+string s
+double d;
+
+}
+
+testclass t1,t2,t3;
+t3=t1+t2;
+
+Abstract Method: Is a method that does not have any definition(body of the method), but only the declaration(function signature)
+                 Is referred with abstract keyword
+
+
+Abstract Class: Is a class that has both abstract methods and non-abstract methods
+                It should have atleast one abstract method
+                Cannot be instantiated 
+                Must be inherited
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
